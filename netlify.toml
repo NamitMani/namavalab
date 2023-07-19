@@ -3,5 +3,3 @@
 [build]
   publish = "dist"
   command = "yarn build"
-
-  gh repo create getting-started-with-avalanche --public --pu --source=. --description="Deploy a smart contract to Avalanche's Fuji Testnet with Hardhat, Ethers, and QuickNode" --remote=upstream
